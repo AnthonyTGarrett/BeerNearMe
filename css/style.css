@@ -7,8 +7,8 @@
 }
 
 .hero-body {
-  height: 75vh;
-  width: 70vw;
+  height: 80vh;
+  width: 75vw;
   margin: 10rem auto 6rem auto;
   background-color: #e4e4e4;
   background-image: url('/img/alcohol-1961542_1920.jpg');
@@ -22,11 +22,12 @@
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.bulma-overlay-mixin {
-  @include mixins.overlay(1.5rem);
-  background-color: rgba(0, 0, 0, 0.815);
-  border-radius: 0.25em;
-  color: white;
-  opacity: 0.9;
-  padding: 1em;
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.814);
+  border-radius: 2rem;
 }
