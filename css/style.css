@@ -35,3 +35,12 @@
   background-color: rgba(0, 0, 0, 0.614);
   border-radius: 2rem;
 }
+
+.title-parent {
+  transform: skew(-6deg);
+}
+
+.title,
+.subtitle {
+  color: var(--light-gray);
+}
