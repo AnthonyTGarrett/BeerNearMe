@@ -44,3 +44,7 @@
 .subtitle {
   color: var(--light-gray);
 }
+
+.logo {
+  width: 100%;
+}
