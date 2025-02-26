@@ -14,8 +14,8 @@
 
 .hero-body {
   height: 80vh;
-  width: 75vw;
-  margin: 10rem auto 6rem auto;
+  width: 80vw;
+  margin: 2rem auto 6rem auto;
   font-family: 'Open Sans', serif;
   background-color: var(--light-gray);
   background-image: url('/img/beer-tabletop.jpg');
@@ -38,6 +38,11 @@
   border-radius: 2rem;
 }
 
+.buttons a {
+  font-family: 'Open Sans', serif;
+  text-shadow: none;
+}
+
 .title-parent {
   transform: skew(-6deg);
 }
@@ -48,5 +53,16 @@
 }
 
 .logo {
-  width: 100%;
+  max-width: 300px;
+}
+
+.sign-up {
+  background-color: var(--primary-alternate);
+}
+
+.navbar-item {
+  font-family: 'Allura';
+  font-size: 4rem;
+  color: var(--primary-color);
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.6);
 }
