@@ -12,16 +12,11 @@
   --dark-gray: #393e46;
 }
 
-body {
-  background-color: var(--dark-gray);
-}
-
 .hero-body {
   height: 80vh;
   width: 80vw;
   margin: 2rem auto 6rem auto;
   font-family: 'Open Sans', serif;
-  background-color: var(--primary-alternate);
   background-image: url('/img/beer-tabletop.jpg');
   padding: 0;
   border-radius: 2rem;
