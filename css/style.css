@@ -7,9 +7,13 @@
   text-rendering: optimizeLegibility;
 
   --primary-color: #800080;
-  --primary-alternate: #d88429;
+  --primary-alternate: #0033a0;
   --light-gray: #e4e4e4;
-  --dark-gray: #444;
+  --dark-gray: #393e46;
+}
+
+body {
+  background-color: var(--dark-gray);
 }
 
 .hero-body {
@@ -17,36 +21,25 @@
   width: 80vw;
   margin: 2rem auto 6rem auto;
   font-family: 'Open Sans', serif;
-  background-color: var(--light-gray);
-  /* background-image: url('/img/beer-tabletop.jpg'); */
-  background-size: cover;
+  background-color: var(--primary-alternate);
+  background-image: url('/img/beer-tabletop.jpg');
   padding: 0;
   border-radius: 2rem;
   opacity: 85%;
-  transform: skew(6deg);
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  overflow: hidden;
 }
 
-.hero-body::before {
-  content: '';
-  background-image: url('/img/beer-tabletop.jpg');
-  background-size: cover;
-  transform: skew(-6deg);
-  height: 100%;
-  width: 100%;
-}
-
-#overlay {
+/* #overlay {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.614);
+  background: rgba(0, 0, 0, 0.614);
+  background-size: cover;
   border-radius: 2rem;
-}
+} */
 
 .buttons a {
   font-family: 'Open Sans', serif;
@@ -73,6 +66,11 @@
 .navbar-item {
   font-family: 'Allura';
   font-size: 4rem;
+  font-weight: 400;
   color: var(--primary-color);
+  transition: 0.3s ease-in all;
+}
+
+.navbar-item:hover {
   text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.6);
 }
